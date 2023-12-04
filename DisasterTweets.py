@@ -103,10 +103,3 @@ test_pred_int = [get_label(d) for d in test_pred]
 
 sub['target'] = test_pred_int
 sub.to_csv('sub.csv', index = None)
-
-
-
-
-
-
-
